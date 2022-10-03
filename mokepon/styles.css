@@ -23,6 +23,8 @@ body{
 .tarjetas, .tarjetas-ataques{
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .tarjeta-de-mokepon{
@@ -70,7 +72,7 @@ input:checked + label{
     box-sizing: border-box;
     border-radius: 10px;
     border-color: transparent;
-    width: 180px;
+    width: 80px;
     color: white;
     font-family: 'Poppins', sans-serif;
 }
