@@ -190,17 +190,17 @@ function secuenciaAtaque() {
         boton.addEventListener('click',(e) => {
             if (e.target.textContent === '🔥') {
                 ataqueJugador.push('FUEGO');
-                //console.log(ataqueJugador);
+                console.log(ataqueJugador);
                 boton.style.background = '#112f58';
                 boton.disabled = true;
             }else if(e.target.textContent === '💧'){
                 ataqueJugador.push('AGUA');
-                //console.log(ataqueJugador);
+                console.log(ataqueJugador);
                 boton.style.background = '#112f58'; 
                 boton.disabled = true;
             }else{
                 ataqueJugador.push('TIERRA');
-                //console.log(ataqueJugador);
+                console.log(ataqueJugador);
                 boton.style.background = '#112f58'; 
                 boton.disabled = true;
             }
@@ -225,7 +225,7 @@ function ataqueAleatorioEnemigo() {
     }else{
         ataqueEnemigo.push('TIERRA');
     }
-    //console.log(ataqueEnemigo);
+    console.log(ataqueEnemigo);
     iniciarPelea();
 }
 function iniciarPelea() {
